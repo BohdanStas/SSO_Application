@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{5E975179-796E-4AA1-8568-D3A1B1F69F3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{5E975179-796E-4AA1-8568-D3A1B1F69F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Orders\Orders.csproj", "{B967B84D-872E-4C86-BE18-B992FC80066D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApi", "ClientApi\ClientApi.csproj", "{5D770CD9-9687-4BA8-A1D8-8DDB16E92979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5E975179-796E-4AA1-8568-D3A1B1F69F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E975179-796E-4AA1-8568-D3A1B1F69F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E975179-796E-4AA1-8568-D3A1B1F69F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B967B84D-872E-4C86-BE18-B992FC80066D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B967B84D-872E-4C86-BE18-B992FC80066D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B967B84D-872E-4C86-BE18-B992FC80066D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B967B84D-872E-4C86-BE18-B992FC80066D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D770CD9-9687-4BA8-A1D8-8DDB16E92979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D770CD9-9687-4BA8-A1D8-8DDB16E92979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D770CD9-9687-4BA8-A1D8-8DDB16E92979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D770CD9-9687-4BA8-A1D8-8DDB16E92979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
