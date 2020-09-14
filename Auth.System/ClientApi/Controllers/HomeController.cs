@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using ClientApi.Models;
 using System.Net.Http;
 using System.Threading.Tasks;
+using IdentityModel.Client;
 
 namespace ClientApi.Controllers
 {
@@ -26,9 +27,26 @@ namespace ClientApi.Controllers
 
         public async Task<IActionResult> GetSecret()
         {
-            var client = httpClientFactory.CreateClient();
+            var authClient = httpClientFactory.CreateClient();
 
-            var response = await client.GetAsync("https://localhost:5001/Home/Secret");
+            var document = await authClient.GetDiscoveryDocumentAsync("https://localhost:10001");
+
+            var responseToken = await authClient.RequestClientCredentialsTokenAsync(
+                new ClientCredentialsTokenRequest
+                {
+
+                    Address = document.TokenEndpoint,
+
+                    ClientId = "client_id",
+                    ClientSecret = "client_secret",
+                    Scope = "OrdersAPI"
+                });
+
+            var orderClient = httpClientFactory.CreateClient();
+
+            orderClient.SetBearerToken(responseToken.AccessToken);
+           
+            var response = await orderClient.GetAsync("https://localhost:5001/Home/Secret");
 
             var message = await response.Content.ReadAsStringAsync();
 

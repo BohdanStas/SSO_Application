@@ -12,8 +12,6 @@ E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\bin\Debug\netco
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.csprojAssemblyReference.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.AssemblyInfoInputs.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.AssemblyInfo.cs
-E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.csproj.CoreCompileInputs.cache
-E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.MvcApplicationPartsAssemblyInfo.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.RazorAssemblyInfo.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.RazorAssemblyInfo.cs
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.TagHelpers.input.cache
@@ -37,3 +35,7 @@ E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netco
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.genruntimeconfig.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.csproj.CopyComplete
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetSecret.cshtml.g.cs
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\bin\Debug\netcoreapp3.1\IdentityModel.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.csproj.CoreCompileInputs.cache
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\ClientApi\obj\Debug\netcoreapp3.1\ClientApi.MvcApplicationPartsAssemblyInfo.cache

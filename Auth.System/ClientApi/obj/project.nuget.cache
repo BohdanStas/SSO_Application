@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sWulaY+nvvwFClDNv/AvDbao0PxDmMDhl+1U8ATNrD6lVSgE/7kUtKsPN1GIdXhvROM87M7fHgPQc/5S/rQUAA==",
+  "dgSpecHash": "th89spKA6JoWtHSpPc0UFSCxDsg9zLeG3EJgLXqhJnAI6onKa5iOVaQVJNZfBZT4cy+YTm8L7VC32pnncXq5xg==",
   "success": true,
   "projectFilePath": "E:\\Study and work\\OAuth2.0\\SSO_Application\\Auth.System\\ClientApi\\ClientApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bohda\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\bohda\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

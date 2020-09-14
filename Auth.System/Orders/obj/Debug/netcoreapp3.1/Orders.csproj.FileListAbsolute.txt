@@ -11,8 +11,6 @@ E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcorea
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Orders.Views.pdb
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.AssemblyInfoInputs.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.AssemblyInfo.cs
-E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.csproj.CoreCompileInputs.cache
-E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.MvcApplicationPartsAssemblyInfo.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.RazorAssemblyInfo.cache
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.RazorAssemblyInfo.cs
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.TagHelpers.input.cache
@@ -36,3 +34,17 @@ E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcorea
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.csproj.CopyComplete
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
 E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.csprojAssemblyReference.cache
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\IdentityModel.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\IdentityModel.AspNetCore.OAuth2Introspection.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\IdentityModel.AspNetCore.ScopeValidation.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\bin\Debug\netcoreapp3.1\IdentityServer4.AccessTokenValidation.dll
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.csproj.CoreCompileInputs.cache
+E:\Study and work\OAuth2.0\SSO_Application\Auth.System\Orders\obj\Debug\netcoreapp3.1\Orders.MvcApplicationPartsAssemblyInfo.cache
