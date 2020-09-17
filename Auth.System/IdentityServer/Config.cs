@@ -12,36 +12,6 @@ namespace IdentityServer
        {
             new Client
             {
-                ClientId = "client_id_js",
-                RequireClientSecret = false,
-                RequireConsent = false,
-                RequirePkce = true,
-                AllowedGrantTypes =  GrantTypes.Code,
-                AllowedCorsOrigins = { "https://localhost:9001" },
-                RedirectUris = { "https://localhost:9001/callback.html", "https://localhost:9001/refresh.html" },
-                PostLogoutRedirectUris = { "https://localhost:9001/index.html" },
-                AllowedScopes =
-                {
-                    "OrdersAPI",
-                    IdentityServerConstants.StandardScopes.OpenId,
-                    IdentityServerConstants.StandardScopes.Profile
-                }
-            },
-            new Client
-            {
-                ClientId = "client_id_swagger",
-                ClientSecrets = { new Secret("client_secret_swagger".ToSha256()) },
-                AllowedGrantTypes =  GrantTypes.ResourceOwnerPassword,
-                AllowedCorsOrigins = { "https://localhost:7001" },
-                AllowedScopes =
-                {
-                    "SwaggerAPI",
-                    IdentityServerConstants.StandardScopes.OpenId,
-                    IdentityServerConstants.StandardScopes.Profile
-                }
-            },
-            new Client
-            {
                 ClientId = "client_id",
                 ClientSecrets = { new Secret("client_secret".ToSha256()) },
 
@@ -52,31 +22,6 @@ namespace IdentityServer
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile
                 }
-            },
-            new Client
-            {
-                ClientId = "client_id_mvc",
-                ClientSecrets = { new Secret("client_secret_mvc".ToSha256()) },
-
-                AllowedGrantTypes = GrantTypes.Code,
-
-                AllowedScopes =
-                {
-                    "OrdersAPI",
-                    IdentityServerConstants.StandardScopes.OpenId,
-                    IdentityServerConstants.StandardScopes.Profile
-                },
-
-                RedirectUris = {"https://localhost:2001/signin-oidc"},
-                PostLogoutRedirectUris = {"https://localhost:2001/signout-callback-oidc"},
-
-                RequireConsent = false,
-
-                AccessTokenLifetime = 5,
-
-                AllowOfflineAccess = true
-
-                // AlwaysIncludeUserClaimsInIdToken = true
             }
        };
 
