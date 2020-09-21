@@ -22,6 +22,21 @@ namespace IdentityServer
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile
                 }
+            },
+            new Client
+            {
+                ClientId = "Client_Mvc",
+                ClientSecrets = { new Secret("ClientMvc_secret".ToSha256())},
+                AllowedGrantTypes = GrantTypes.Code,
+                AllowedScopes =
+                {
+                    "OrdersAPI",
+                    IdentityServerConstants.StandardScopes.OpenId,
+                    IdentityServerConstants.StandardScopes.Profile
+                },
+                RedirectUris = {"https://localhost:2001/signin-oidc" }
+
+
             }
        };
 
